@@ -49,7 +49,12 @@
             <tr>
                 <td>
                     <div style="float:left">
-                        <div class="headerbtncell"><button type="button" class="headerbtn mydrpicon icon-mydrpleft" [attr.aria-label]="opts.ariaLabelPrevMonth" (click)="onPrevMonth()" [disabled]="prevMonthDisabled" [ngClass]="{'headerbtnenabled': !prevMonthDisabled, 'headerbtndisabled': prevMonthDisabled}"></button></div>
+                        <div class="headerbtncell">
+                            <button type="button" class="headerbtn mydrpicon icon-mydrpleft" [attr.aria-label]="opts.ariaLabelPrevMonth" (click)="onPrevMonth()" [disabled]="prevMonthDisabled" [ngClass]="{'headerbtnenabled': !prevMonthDisabled, 'headerbtndisabled': prevMonthDisabled}">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAW0lEQVRYw+2WsRHAIAzEPFQgq9GxMWSDQHbIP3AnuZfKdwQAwLnUeVL9O69q9d8Vrb7FpdT3SOiX6bNS/6j193F6Q8CeyOpEdyQSiU0SksExTKZh9A1vCwDAvwwA0HcXvI67oQAAAABJRU5ErkJggg==" alt="">
+                                
+                            </button>
+                        </div>
                     </div>
                 </td>
                 <td>
@@ -57,7 +62,11 @@
                 </td>
                 <td>
                     <div style="float:right">
-                        <div class="headerbtncell"><button type="button" class="headerbtn mydrpicon icon-mydrpright" [attr.aria-label]="opts.ariaLabelNextMonth" (click)="onNextMonth()" [disabled]="nextMonthDisabled" [ngClass]="{'headerbtnenabled': !nextMonthDisabled, 'headerbtndisabled': nextMonthDisabled}"></button></div>
+                        <div class="headerbtncell">
+                            <button type="button" class="headerbtn mydrpicon icon-mydrpright" [attr.aria-label]="opts.ariaLabelNextMonth" (click)="onNextMonth()" [disabled]="nextMonthDisabled" [ngClass]="{'headerbtnenabled': !nextMonthDisabled, 'headerbtndisabled': nextMonthDisabled}">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAW0lEQVRYw+2WuRGAMBDEtihsWiNzx0AHR0ILMs9IzqXkZtaJiMh3GBmsvlJcYkvdD0os2elEy2HiJYk+I3HSifUHCTgA6zutR8+0qX9Mjw8OPpn46E/4toiIsFwLhHcXmr5dHwAAAABJRU5ErkJggg==" alt="">
+                            </button>
+                        </div>
                     </div>
                 </td>
             </tr>
